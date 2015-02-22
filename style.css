@@ -1,6 +1,3 @@
-/*
-CSS Credit: http://www.templatemo.com
-*/
 
 body {
 	margin: 0;
@@ -37,12 +34,12 @@ img { margin: 0px; padding: 0px; border: none; }
 
 .margin_r20 { margin-right: 20px; }
 
-#templatemo_body_wrapper {
+#body_wrapper {
 	width: 100%;
-	background: url(images/templatemo_body_bottom.png) repeat-x bottom center;
+	background: url(images/body_bottom.png) repeat-x bottom center;
 }
 
-#templatemo_wrapper {
+#wrapper {
 	width: 970px;
 	padding: 0 10px;
 	margin: 0 auto;
@@ -51,14 +48,14 @@ img { margin: 0px; padding: 0px; border: none; }
 
 /* header */
 
-#templatemo_header {
+#header {
 	clear: both;
 	width:  890px;
 	height: 60px;
 	padding: 20px 40px
 }
 
-#templatemo_header  #site_title {
+#header  #site_title {
 	float: left;
 	padding-top: 15px;
 }
@@ -107,11 +104,11 @@ img { margin: 0px; padding: 0px; border: none; }
 
 /* menu */
 
-#templatemo_menu {
+#menu {
 	clear: both;
 	width: 970px;
 	height: 70px;
-	background: url(images/templatemo_menubar.png) no-repeat;
+	background: url(images/menubar.png) no-repeat;
 }
 
 #search_box {
@@ -150,7 +147,7 @@ img { margin: 0px; padding: 0px; border: none; }
 	background: #FFFFFF;
 }
 
-#templatemo_menu ul {
+#menu ul {
 	width: 890px;
 	height: 35px;
 	margin: 0;
@@ -158,13 +155,13 @@ img { margin: 0px; padding: 0px; border: none; }
 	list-style: none;
 }
 
-#templatemo_menu ul li {
+#menu ul li {
 	padding: 0px;
 	margin: 0px;
 	display: inline;
 }
 
-#templatemo_menu ul li a {
+#menu ul li a {
 	float: left;
 	display: block;
 	margin-right: 40px;
@@ -174,7 +171,7 @@ img { margin: 0px; padding: 0px; border: none; }
 	font-weight: normal;
 	outline: none;
 }
-#templatemo_menu ul li a:hover, #templatemo_menu ul .current {
+#menu ul li a:hover, #menu ul .current {
 	color: #162127;
 }
 
@@ -182,12 +179,12 @@ img { margin: 0px; padding: 0px; border: none; }
 
 /* contetnt */
 
-#templatemo_content_wrapper {
+#content_wrapper {
 	clear: both;
 	padding: 10px 0;	
 }
 
-#templatemo_content {
+#content {
 	float: left;
 	margin-left: 10px;
 	width: 550px;
@@ -197,51 +194,51 @@ img { margin: 0px; padding: 0px; border: none; }
 	margin: 0 0 10px 0;
 }
 
-#templatemo_content #content_top {
+#content #content_top {
 	width: 550px;
 	height: 20px;
-	background: url(images/templatemo_content_top.png) no-repeat;
+	background: url(images/content_top.png) no-repeat;
 }
 
-#templatemo_content #content_bottom {
+#content #content_bottom {
 	width: 550px;
 	height: 20px;
-	background: url(images/templatemo_content_bottom.png) no-repeat;
+	background: url(images/content_bottom.png) no-repeat;
 }
 
-#templatemo_content #content_middle {
+#content #content_middle {
 	width: 510px;
 	padding: 5px 20px 0px 20px;
-	background: url(images/templatemo_content_middle.png) repeat-y;
+	background: url(images/content_middle.png) repeat-y;
 }
 
 #content_middle p {
 	text-align: justify;
 }
 
-.templatemo_sidebar_wrapper {
+.sidebar_wrapper {
 	width: 200px;
 }
 
-.templatemo_sidebar {
+.sidebar {
 	width: 197px;
 	padding-right: 3px;
-	background: url(images/templatemo_sidebar_middle.png) repeat-y;
+	background: url(images/sidebar_middle.png) repeat-y;
 }
 
-.templatemo_sidebar_top {
+.sidebar_top {
 	width: 200px;
 	height: 20px;
-	background: url(images/templatemo_sidebar_top.png) no-repeat;
+	background: url(images/sidebar_top.png) no-repeat;
 }
 
-.templatemo_sidebar_bottom {
+.sidebar_bottom {
 	width: 200px;
 	height: 20px;
-	background: url(images/templatemo_sidebar_bottom.png) no-repeat;
+	background: url(images/sidebar_bottom.png) no-repeat;
 }
 
-.templatemo_sidebar .sidebar_box {
+.sidebar .sidebar_box {
 	clear: both;
 	padding-bottom: 20px;
 }
@@ -252,12 +249,12 @@ img { margin: 0px; padding: 0px; border: none; }
 	padding-left: 25px;
 	font-weight: bold;
 	margin: 0 0 10px 10px;
-	background: url(images/templatemo_sidebar_h1.png) left center no-repeat;
+	background: url(images/sidebar_h1.png) left center no-repeat;
 }
 
 .sidebar_box .sidebar_box_content {
 	padding: 15px;
-	background: url(images/templatemo_sidebar_box_top.png) top repeat-x;
+	background: url(images/sidebar_box_top.png) top repeat-x;
 }
 
 .sidebar_box img {
@@ -382,21 +379,15 @@ img { margin: 0px; padding: 0px; border: none; }
 	float: right;
 }
 
-.product_box .addtocard {
-	float: left;
-	font-weight: bold;
-	padding-right: 20px;
-	background: url(images/templatemo_shopping_cart.png) bottom right no-repeat;
-}
 /* end of content */
 
 /* footer */
 
-#templatemo_footer_wrapper {
+#footer_wrapper {
 	background: url(images/fondo.jpg) repeat-x;
 }
 
-#templatemo_footer {
+#footer {
 	width: 910px;
 	height: 85px;
 	padding: 50px 40px 30px 40px;
@@ -405,17 +396,17 @@ img { margin: 0px; padding: 0px; border: none; }
 	color: #a9a098;
 }
 
-#templatemo_footer a {
+#footer a {
 	color: #d7d1cc;
 	font-weight: normal;
 }
 
-#templatemo_footer a:hover {
+#footer a:hover {
 	text-decoration: none;
 	color: #FFFF33;
 }
 
-#templatemo_footer .footer_menu {
+#footer .footer_menu {
 	margin: 0 0 30px 0;
 	padding: 0px;
 	list-style: none;
