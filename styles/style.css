@@ -1,0 +1,105 @@
+
+
+/*Element Selectors*/
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer{
+	background-color: #7AEB5C; 
+}
+
+footer{
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer div img{
+	width: 50px;
+}
+
+h4{
+	color:black;
+}
+
+.sugiere{
+	color:red;
+}
+
+/*Class, Attribute and Pseudo Selectors*/
+
+.logo{
+	margin-top: 15px;
+}
+
+.search{
+	float:right;
+}
+
+.form-inline{
+	float: right;
+}
+
+.listImg{
+	list-style-image: url("../images/list.png") 
+}
+
+.registro_box{
+	float:right;
+}
+
+.registro_box h4, .registro_box a {
+	text-align: right;
+}
+
+.headerspace{
+	height: 77px;
+}
+
+.carousel-control, .item img{
+  border-radius: 25px;
+}
+
+.footerImg{
+	border: 0;
+	background: transparent;
+}
+
+.breadcrumb{
+	background-color: transparent;
+	float: left;
+}
+
+.migaPan{
+	padding:0px;
+}
+
+.footer{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Id*/
+
+#seachDiv{
+  margin-top: 35px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+ } 
+ 
+ #titleDiv{
+	padding-bottom: 0px;
+	padding-top: 0px;	
+	text-align: left;
+ }
+ 
+ @media screen and (max-width: 700px){
+	.panel, .panel-heading, caption, nav, #seachDiv{
+		font-size: 1.3em !important;
+	}
+ }
+  

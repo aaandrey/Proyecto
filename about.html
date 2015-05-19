@@ -23,6 +23,8 @@
 	<link href="styles/jquery-ui.css" rel="stylesheet" type="text/css" media="all">
 	<!-- General Style CSS -->
 	<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" >
+	<!-- Landing CSS -->
+	<link href="styles/landing-page.css" rel="stylesheet" type="text/css" media="all" >
 	  
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="libs/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -101,161 +103,55 @@
 			<div class="col-xs-12 col-sm-12 col-md-12">
 				<nav>
 				  <ul class="nav nav-justified">
-					<li class="active"><a href="#">Inicio</a></li>
+					<li><a href="index.html">Inicio</a></li>
 					<li><a href="#">Ranking</a></li>
 					<li><a href="#">Monta&ntilde;a</a></li>
 					<li><a href="#">Playa</a></li>
 					<li><a href="#">Ciudad</a></li>
-					<li><a href="about.html">Acerca</a></li>
+					<li class="active"><a href="#">Acerca</a></li>
 				  </ul>
 				</nav>
 			</div>
 		  </div>
 		</div>
 	</header>
-		
-		<div class="container"> 
+	<div class="intro-header">
+		<div class="container">
+			<div class="col-xs-12 col-sm-12 col-md-12 migaPan">
+				<ol class="breadcrumb">
+				  <li><a href="index.html">Home</a></li>
+				  <li class="active">About</li>
+				</ol>
+			</div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>
+							ANDREY V&Aacute;SQUEZ C&Eacute;SPEDES
+							<br>
+							FABIAN CASTRO BRENES
+							<br>
+							CARLOS ARCE MU&Ntilde;OZ
+						</h1>
+                        <h3>Proyecto - UNA</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https:www.una.ac.cr" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">UNA</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.aulavirtual.una.ac.cr" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Aula Virtual</span></a>
+                            </li>
+                            <li>
+                                <a href="http://www.escinf.una.ac.cr" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Esc. Info</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-2">
-            <div class="panel panel-success">
-			    <div class="panel-heading">
-					<h3 class="panel-title" id="panel-title">Ranking<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
-			    </div>
-			    <div class="panel-body">
-					<ul class="listImg">
-						<li><a href="#">Mayo 2015</a></li>
-						<li><a href="#">Abril 2015</a></li>
-						<li><a href="#">Marzo 2015</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="panel panel-success">
-			    <div class="panel-heading">
-					<h3 class="panel-title" id="panel-title">Monta&ntilde;a<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
-			    </div>
-			    <div class="panel-body">
-					<ul class="listImg">
-						<li><a href="#">Bosque Seco</a></li>
-						<li><a href="#">Bosque Lluvio</a></li>
-						<li><a href="#">Busque Pluvial</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="panel panel-success">
-			    <div class="panel-heading">
-					<h3 class="panel-title" id="panel-title">Playa<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
-			    </div>
-			    <div class="panel-body">
-					<ul class="listImg">
-						<li><a href="#">Costa Caribe</a></li>
-						<li><a href="#">Pac&iacute;fico Norte</a></li>
-						<li><a href="#">Pac&iacute;fico Sur</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="panel panel-success">
-			    <div class="panel-heading">
-					<h3 class="panel-title" id="panel-title">Cuidad<a class="anchorjs-link" href="#panel-title"><span class="anchorjs-icon"></span></a></h3>
-			    </div>
-			    <div class="panel-body">
-					<ul class="listImg">
-						<li><a href="#">Museos</a></li>
-						<li><a href="#">Mariposarios</a></li>
-						<li><a href="#">Teatros</a></li>
-					</ul>
-				</div>
-			</div>
         </div>
-        <div class="col-md-8">
-		  <!-- Carrusel -->
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-			  <!-- Indicators -->
-			  <ol class="carousel-indicators">
-				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				<li data-target="#carousel-example-generic" data-slide-to="4"></li>
-			  </ol>
-
-			  <!-- Wrapper for slides -->
-			  <div class="carousel-inner" role="listbox">
-				<div class="item active">
-				  <img src="images/rio_celeste.jpg" alt="R&iacute;o Celeste">
-				  <div class="carousel-caption">
-					<h4>R&iacute;o Celeste</h4>
-					<p>Alajuela</p>
-				  </div>
-				</div>
-				<div class="item">
-				  <img src="images/ballena.jpg" alt="Bah&iacute;a Ballena">
-				  <div class="carousel-caption">
-					<h4>Bah&iacute;a Ballena</h4>
-					<p>Zona Sur</p>
-				  </div>
-				</div>
-				<div class="item">
-				  <img src="images/Chirripo.jpg" alt="Chirrip&oacute;">
-				  <div class="carousel-caption">
-					<h4>Chirrip&oacute;</h4>
-					<p>Cordillera de Talamanca</p>
-				  </div>
-				</div>
-				<div class="item">
-				  <img src="images/museo_nacional.jpg" alt="Museo Nacional">
-				  <div class="carousel-caption">
-					<h4>Museo Nacional</h4>
-					<p>San Jos&eacute;</p>
-				  </div>
-				</div>
-				<div class="item">
-				  <img src="images/volcan_arenal.jpg" alt="Volc&aacute;n Arenal">
-				  <div class="carousel-caption">
-					<h4>Volc&aacute;n Arenal</h4>
-					<p>San Carlos</p>
-				  </div>
-				</div>
-			  </div>
-
-			  <!-- Controls -->
-			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			  </a>
-			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			  </a>
-			</div>
-			<div class="jumbotron">
-				<h2>Bienvenido</h2>
-				<p>Esta p&aacute;gina fue creada con el fin de dar a conocer los mejores lugares de Costa Rica tanto al turista extranjero como al costarricense</p>
-				<img class="logo" src="images/logo.png" alt="logo Turist - Ticos" />
-			</div>
-       </div>
-        <div class="col-md-2">
-			<div class="thumbnail">
-			  <img src="images/montanna_fuego.jpg" alt="Hotel Monta&ntilde;a de Fuego">
-			  <div class="caption">
-				<h4>Monta&ntilde;a de Fuego</h4>
-				<p>¡Enamorate de San Carlos! Con una estadía desde tan sólo ₡41.810</p>
-				<p><a href="https://www.titicupon.com/titicupon/enamorate-de-san-carlos-con-una-estadia-desde-tan-solo-cl41810-en-el-hotel-montana-de" class="btn btn-success" role="button">Comprar</a></p>
-			  </div>
-			</div>
-			<div class="thumbnail">
-			  <img src="images/barons.jpg" alt="Hotel Barons">
-			  <div class="caption">
-				<h4>Barons Resort</h4>
-				<p>¡Escapate y pasá una noche romántica! Obtené un 50% de descuento</p>
-				<p><a href="https://www.titicupon.com/titicupon/escapate-y-pasa-una-noche-romantica-obtene-un-50-de-descuento-en-el-hotel-barons-resort" class="btn btn-success" role="button">Comprar</a></p>
-			  </div>
-			</div>
-        </div>
-      </div>
-
-    </div> <!-- /container -->
+		</div>
 	<!-- Site footer -->
       <footer class="footer">
 		<div class="container"> 
